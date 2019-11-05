@@ -1,0 +1,80 @@
+body {
+    font: 12px Arial;
+}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 8px;
+    font: 12px sans-serif;
+    background-color: white;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px lightgray;
+    pointer-events: none;
+}
+
+div#filter-legendary {
+    position: absolute;
+    left: 750px;
+    top: 150px;
+    color: #575757;
+    font-size: 15px;
+}
+
+div#filter-generation {
+    position: absolute;
+    left: 750px;
+    top: 190px;
+    color: #575757;
+    font-size: 15px;
+}
+
+.country-name {
+    margin: 0 !important;
+}
+
+.key-dot {
+    display: inline-block;
+    height: 10px;
+    margin-right: .5em;
+    width: 10px;
+}
+
+.legend {
+    margin-right:20px;
+    position: absolute;
+    left: 750px;
+    top: 250px;
+}
+
+.Bug { background: #4E79A7;}
+.Dark { background: #A0CBE8;}
+.Dragon { background: #FDAE61;}
+.Electric { background: #F28E2B;}
+.Fairy { background: #8073AC;}
+.Fighting { background: #59A14F;}
+.Fire { background: #8CD17D;}
+.Flying { background: #3288BD;}
+.Ghost { background: #B6992D;}
+.Grass { background: #499894;}
+.Ground { background: #8B8970;}
+.Ice { background: #86BCB6;}
+.Normal { background: #E15759;}
+.Poison { background: #FF9D9A;}
+.Psychic { background: #79706E;}
+.Rock { background: #BF812D;}
+.Steel { background: #BAB0AC;}
+.Water { background: #D37295;}
+
