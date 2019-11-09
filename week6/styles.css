@@ -1,0 +1,41 @@
+body { font: 12px Arial;}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 8px;
+    font: 12px sans-serif;
+    background-color: white;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px lightgray;
+    pointer-events: none;
+}
+
+.axisGrey line {
+    stroke: #575757;
+}
+
+.axisGrey path {
+    stroke: #575757;
+}
+
+.axisGrey text {
+    fill: #575757;
+}
+
+.circles:hover {
+    cursor: pointer;
+}
